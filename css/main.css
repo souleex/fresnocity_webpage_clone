@@ -1,12 +1,18 @@
-* {
+*{
     margin:0;
     padding:0;
 }
 
+html, body {
+    height:100%;
+}
+
 .class-container {
     background-color: grey;
-    width:80%;
+    width:1000px;
+    height:100%;
     margin:0 auto;
+    position:relative;
     
 }
 
@@ -16,19 +22,52 @@
     height:50px;
 }
 
+.class-main-header {
+    background: url(../img/header_bg.jpg);
+    background-repeat:no-repeat;
+    height:100px;
+    background-size: 100%;
+}
+
+.class-top-links a {
+    color:white;
+    padding: 1px;
+    text-decoration:none;
+}
+
+.class-top-links {
+    color:white;
+    text-align: left;
+    margin-left: 30%;
+}
+
 .class-main-content {
     flex:1;
     background-color:red;
-    height: 800px;
+    height: 100%;
 }
 
 .class-main-side-bar {
     background-color: orange;
     width:30%;
-    float:left;
+    height:35%;
+    flex:1;
+    position: relative;
+    top: 58.7%;
 }
 
 .class-content-right {
     background-color:blueviolet;
-    
+    width:70%;
+    height:35%;
+    right:30%;
+    flex:1;
+    float:right;
+    position: relative;
+    top: 58.7%;
+}
+
+.class-main-content-banner-image {
+    background: url(../img/main-content-banner-image.jpg);
+    background-repeat:no-repeat;
 }
