@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.class-container {
+    background-color: grey;
+    width:80%;
+    margin:0 auto;
+    
+}
+
+.class-main-header, .class-main-footer{
+    background-color:grey;
+    width:100%;
+    height:50px;
+}
+
+.class-main-content {
+    flex:1;
+    background-color:red;
+    height: 800px;
+}
+
+.class-main-side-bar {
+    background-color: orange;
+    width:30%;
+    float:left;
+}
+
+.class-content-right {
+    background-color:blueviolet;
+    
+}
