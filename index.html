@@ -9,7 +9,8 @@
                 padding:0;
             }
             body, html {
-                
+                background: #000 url('./image/body_bg.jpg') top center repeat-x;
+                text-align: center;
             }
             .container {
                 position:relative;
@@ -48,7 +49,7 @@
             .main-content {
                 flex:1;
                 background-color:antiquewhite;
-                margin-bottom:100px;
+                /*margin-bottom:100px;*/
                 border-bottom-left-radius: 30px;
                 border-bottom-right-radius: 30px;
             }
@@ -95,8 +96,9 @@
             .main-sidebar ul {
                 list-style-type:none;
             }
-            .main-sidebar li {
-
+            .main-sidebar li:last-child {
+                
+                border-bottom-left-radius: 30px;
             }
             .main-sidebar a {
                 color:#FFF;
@@ -113,6 +115,23 @@
                 background: -ms-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
                 background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );
+            }
+            
+            .div-social-media-links {
+                height: 100px;
+            }
+            
+            .ul-social-media-links li{
+                padding-top: 25px;
+                list-style: none;
+                display: inline-block;
+                text-align: center;
+                position: relative;
+            }
+            
+            .ul-social-media-links li img{
+                height: 50px;
+                width: 50px;
             }
         </style>
     </head>
@@ -159,6 +178,18 @@
                 <div class="content-right">
                     contnet right
                 </div>
+            </div>
+            <div class="div-social-media-links">
+                <ul class="ul-social-media-links">
+                    <li><img src="./image/instagram_icon.jpg"></li>
+                    <li><img src="./image/twitter_icon.jpg"></li>
+                    <li><img src="./image/facebook_icon.jpg"></li>
+                    <li><img src="./image/googleplus_icon.jpg"></li>
+                    <li><img src="./image/youtube_icon.jpg"></li>
+                    <li><img src="./image/snapchat_icon.jpg"></li>
+                    <li><img src="./image/flickr_icon.png"></li>
+                    <li><img src="./image/therampage_icon.jpg"></li>
+                </ul>
             </div>
             <footer class="main-footer">&copy; created by Sou Lee</footer>    
        </div>
